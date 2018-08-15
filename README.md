@@ -66,6 +66,12 @@ We also need to install [findspark](https://anaconda.org/conda-forge/findspark).
 conda install -c conda-forge findspark
 ```
 
+I normally use [Apache Arrow](https://arrow.apache.org). If you also use Arrow install it. 
+
+```
+conda install -c conda-forge pyarrow
+```
+
 Now your environment is ready for use. Move to the folder that you wish to
 code at. Type ```jupyter notebook```. Create a new notebook using the
 create environment as follows.
